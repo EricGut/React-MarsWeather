@@ -1,0 +1,19 @@
+.loading-box {
+	width: 100%;
+	display: grid;
+	place-items: center;
+	.loading-spinner {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: 7px solid rgba($color: #fafafa, $alpha: 0.8);
+		border-top: 7px solid #da3a3a;
+		animation: spin 0.5s infinite linear;
+	}
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
