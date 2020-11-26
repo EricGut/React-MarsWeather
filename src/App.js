@@ -26,7 +26,7 @@ function App() {
     fetchData()
 
   }, [])
-  console.log(weather);
+
   return (
     <div className="app">
       <div className="container">

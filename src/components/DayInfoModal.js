@@ -5,7 +5,6 @@ import dataVerify from '../utils/data';
 const DayInfoModal = ({ dayInfo, onClick }) => {
 
     const { ...data } = dataVerify(dayInfo);
-    console.log(data);
 
     return (
         <div className="modal" onClick={onClick}>
